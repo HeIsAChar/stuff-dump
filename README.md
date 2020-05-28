@@ -1,2 +1,3 @@
 # stuff-dump
-adjustment
+This is a dump, for stuff. This is self-explanatory.
+Discord. Neocities. etc etc.
