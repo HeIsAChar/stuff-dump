@@ -47,7 +47,7 @@ border-radius: 0px !important;
     height: 14px; 
 }
 .wordmark-2iDDfm::before{
-    content:"Stand-Alone Complex";
+    content:"Discord Aero";
     font-size: 16px;
     Font-Weight: 600;
     position:fixed;
@@ -62,13 +62,4 @@ main[class^="chatContent"] form[class*="form"] {
   padding-right: 20px;
   margin-left: 0px;
   margin-right: 0px;
-}
-
-@keyframes standalone {
-  0% {
-    content: "Stand-Alone Complex";
-  }
-  100% {
-    content: "Stand-Alone Complex... or should I";
-  }
 }
