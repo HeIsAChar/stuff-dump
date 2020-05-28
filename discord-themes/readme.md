@@ -1,3 +1,3 @@
-# Discord Themes
+# Discord Aero
 
-Yo, this is where I put my discord themes, fo shizzo my nizzo.
+This is a theme for people who dislike flat aesthetics, and like some of that skeuomorphism and gradients.
