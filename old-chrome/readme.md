@@ -1,1 +1,1 @@
-#Old Google Chrome theme for Firefox
+# Old Google Chrome theme for Firefox
