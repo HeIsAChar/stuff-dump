@@ -48,10 +48,6 @@ height: 27px !important;
 #nav-bar {
   height: 35px !important;
 }
-#urlbar[focused=true], .searchbar-textbox[focused=true] {
-	border-color: dodgerblue !important;
-}
-
 .tab-close-button
 {
  width: 16px !important;
