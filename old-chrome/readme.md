@@ -6,6 +6,6 @@ If this doesn't work on the latest Firefox version, please re-read the descripti
 ## Notes
 Tested on Waterfox only.
 
-You may fork this to make a version for post-FF77 versions of Firefox.
-
 Credit to aris-t2 for the icons_custom_icons_size.css file.
+
+You may fork this to make a version for post-FF77 versions of Firefox.
