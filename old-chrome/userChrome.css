@@ -3,14 +3,14 @@
     --tab-min-height: 30px !important;
 }
     .titlebar-button {
-    background-color: transparent !important;
-	border: solid #8A8A8A 1px !important;
-	border-right: none !important;
-	border-bottom: none !important;
-	box-shadow: inset 1px 1px 0 rgba(255,255,255,.2) !important;
+    background-color: #A5B2C0 !important;
+    border: solid #8A8A8A 1px !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    box-shadow: inset 1px 1px 0 rgba(255,255,255,.2) !important;
     }
     .titlebar-button:hover {
-    background-color: rgba(0,0,0, 0.15) !important;
+    background-color: #99A5B2 !important;
     }
 #browser-bottombox, #status-bar, #status-bar > *, #nav-bar, #addon-bar, #main-window[tabsontop="false"] ,
     #main-window[tabsontop="false"] #PersonalToolbar[collapsed="false"] + #TabsToolbar, .browserContainer > findbar,
@@ -29,7 +29,7 @@
   border-bottom: none !important
 }
 #main-window {
- background-color: #BABABA !important;
+ background-color: #A5B2C0 !important;
 }
  
 #urlbar, .searchbar-textbox, .findbar-textbox {
