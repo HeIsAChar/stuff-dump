@@ -8,6 +8,7 @@
     border-right: none !important;
     border-bottom: none !important;
     box-shadow: inset 1px 1px 0 rgba(255,255,255,.2) !important;
+    padding: 0px 17px !important;
     }
     .titlebar-button:hover {
     background-color: #99A5B2 !important;
