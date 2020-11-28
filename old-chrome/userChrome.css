@@ -61,10 +61,6 @@ border-bottom: unset !important;
 border-radius: 5px 5px 0 0;
 background-color: #D2D7DD !important;
 }
-.tabbrowser-tab::after,
-.tabbrowser-tab::before {
-margin-top: 4px !important;
-}
 #TabsToolbar .tabbrowser-tab:not([selected="true"]):hover .tab-background {
 background-color: #E8EDF2 !important;
 }
