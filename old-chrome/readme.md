@@ -4,7 +4,7 @@ This is a theme for Firefox (pre-FF77) that seeks to emulate classic Google Chro
 If this doesn't work on the latest Firefox version, please re-read the description.
 
 ## How to install
-Throw everything in here into your chrome folder.
+Throw everything in here into your AppData/Roaming/Mozilla/Firefox/Profiles/(your profile)/chrome folder.
 ## Notes
 Tested on Waterfox only.
 
