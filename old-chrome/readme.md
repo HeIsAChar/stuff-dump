@@ -5,6 +5,8 @@ If this doesn't work on the latest Firefox version, please re-read the descripti
 
 ## How to install
 Throw everything in here into your AppData/Roaming/Mozilla/Firefox/Profiles/(your profile)/chrome folder.
+
+If you don't download everything in this folder, the theme might break.
 ## Notes
 Tested on Waterfox only.
 
