@@ -1,14 +1,14 @@
 @import "icons_custom_icons_sizes.css";
 :root {
-    --tab-min-height: 30px !important;
+    --tab-min-height: 29px !important;
 }
     .titlebar-button {
     background-color: #A5B2C0 !important;
-    border: solid #8A8A8A 1px !important;
-    border-right: none !important;
-    border-bottom: none !important;
-    box-shadow: inset 1px 1px 0 rgba(255,255,255,.2) !important;
-    padding: 0px 17px !important;
+	border: solid #8A8A8A 1px !important;
+	border-right: none !important;
+	border-bottom: none !important;
+	box-shadow: inset 1px 1px 0 rgba(255,255,255,.2) !important;
+	padding: 0px 17px !important;
     }
     .titlebar-button:hover {
     background-color: #99A5B2 !important;
@@ -30,7 +30,7 @@
   border-bottom: none !important
 }
 #main-window {
- background-color: #A5B2C0 !important;
+ background-color: #0000 !important;
 }
  
 #urlbar, .searchbar-textbox, .findbar-textbox {
@@ -54,7 +54,6 @@ height: 27px !important;
  width: 16px !important;
  height: 16px !important;
 }
-
 .tabbrowser-tab .tab-background {
 border: #969696 1px solid !important;
 border-bottom: unset !important;
@@ -70,7 +69,6 @@ background-color: #BABABA !important;
 .tabbrowser-tab:not([selected]) .tab-content{
     color: dimgray !important;
 }
-
 :-moz-any(#back-button,#forward-button,#home-button,#stop-button,#reload-button,#bookmarks-menu-button,#history-panelmenu,
 	#add-ons-button,#open-file-button,#save-page-button,#sync-button,#feed-button,#characterencoding-button,
 	#new-window-button,#new-tab-button,#privatebrowsing-button,#find-button,#print-button,#fullscreen-button,#developer-button,
@@ -81,20 +79,17 @@ background-color: #BABABA !important;
 #downloads-button .toolbarbutton-icon {
   list-style-image: url("toolbar_fx_old_chrome.png") !important;
 }
-
 #downloads-button:not(:-moz-any([progress],[counter],[paused],[attention])) #downloads-indicator-progress-outer,
 #downloads-button:not([counter]) > #downloads-indicator-anchor > #downloads-indicator-progress-area > #downloads-indicator-counter,
 #downloads-button:not([attention]) > #downloads-indicator-anchor > #downloads-indicator-icon {
   background: -moz-image-rect(url("toolbar_fx_old_chrome.png"), 0, 198, 18, 180) center no-repeat !important;
 }
-
 #urlbar[pageproxystate="valid"] #tracking-protection-icon-container:not([hidden]) ~ #identity-box:-moz-any(.verifiedDomain,.verifiedIdentity) #identity-icon,
 #urlbar[pageproxystate="valid"] :-moz-any(.verifiedDomain,.verifiedIdentity) #connection-icon {
   list-style-image: url(lock1.png) !important;
   -moz-image-region: rect(0, 16px, 16px, 0) !important;
 }
 .tab-close-button:not([pinned]){ display: -moz-box !important; }
-
 .tabbrowser-tab:not([pinned]) .tab-close-button:hover {
   background-color: #D06A5D;
   border-radius: 25px;
@@ -106,7 +101,8 @@ height: unset !important;
 background-color: unset !important;
 border: unset !important;
 padding: var(--toolbarbutton-inner-padding) !important;
-border-radius: var(--toolbarbutton-border-radius) !important; }
+border-radius: var(--toolbarbutton-border-radius) !important;
+box-shadow: unset !important }
 :root:not([uidensity="compact"]) #back-button:hover:not([disabled]) > .toolbarbutton-icon {
 background-color: var(--toolbarbutton-hover-background) !important; }
 :root:not([uidensity="compact"]) #back-button:active:not([disabled]) > .toolbarbutton-icon {
@@ -121,12 +117,13 @@ padding: 5px !important;
   transform: perspective(10px) rotateX(2.5deg);
 }
 .tabbrowser-tab::before, 
-.tabbrowser-tab::after{
-  display: none !important;
-}
+.tabbrowser-tab::after,
 .titlebar-spacer{
-  display: none
+  display: none !important;
 }
 .tabbrowser-tab[fadein]:not([pinned]) { 
   max-width: 196px !important;
+}
+.tabbrowser-arrowscrollbox > .scrollbutton-up {
+margin: unset !important;
 }
