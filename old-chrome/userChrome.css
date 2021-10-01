@@ -124,3 +124,6 @@ padding: 5px !important;
 .tabbrowser-arrowscrollbox > .scrollbutton-up {
 margin: unset !important;
 }
+.subviewbutton[shortcut]::after {
+color: #A1A192;
+}
