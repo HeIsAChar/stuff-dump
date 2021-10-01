@@ -30,9 +30,8 @@
   border-bottom: none !important
 }
 #main-window {
-  background-color: #A5B2C0 !important;
+ background-color: #0000 !important;
 }
- 
 #urlbar, .searchbar-textbox, .findbar-textbox {
 border-color: #CACACA !important;
 border-top-color: #A3A3A3 !important;
@@ -55,9 +54,9 @@ height: 27px !important;
  height: 16px !important;
 }
 .tabbrowser-tab .tab-background {
-border: #969696 1px solid !important;
+border: #9EA3A8 1px solid !important;
 border-bottom: unset !important;
-border-radius: 5px 5px 0 0;
+border-radius: 3px 3px 0 0;
 background-color: #D2D7DD !important;
 }
 #TabsToolbar .tabbrowser-tab:not([selected="true"]):hover .tab-background {
@@ -113,12 +112,10 @@ padding-inline-start: 3px !important; }
 #main-window:not([uidensity="compact"]) #back-button .toolbarbutton-icon {
 padding: 5px !important;
 }
-.tab-background {
-  transform: perspective(10px) rotateX(2.5deg);
-}
 .tabbrowser-tab::before, 
 .tabbrowser-tab::after,
-.titlebar-spacer{
+.titlebar-spacer,
+.panel-arrow {
   display: none !important;
 }
 .tabbrowser-tab[fadein]:not([pinned]) { 
