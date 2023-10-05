@@ -1,0 +1,158 @@
+/**
+ * @name Aero Discord
+ * @version 2
+ * @description Makes you feel old.
+ * @author F-dou
+**/
+.theme-dark {
+--text-normal: #C8D0DC;
+}
+.sidebar-nqHbhN {
+    padding:18px;
+}
+.side-1lrxIh .item-2GWPIy, #bd-settings-sidebar .ui-tab-bar-item {
+    margin:0;
+    font-size:15px;
+    line-height:0.9;
+}
+.lookFilled-yCfaCM.colorBrand-I6CyqQ, .lookFilled-yCfaCM.colorGreen-3y-Z79, .theme-dark .lookFilled-yCfaCM.colorPrimary-2AuQVo {
+box-shadow: inset 0px 1px 2px 1px rgba(0,0,0,.7),
+0px 1px 1px rgba(255,255,255,.3);
+text-shadow: 0px -1px 1px black;
+background-image: linear-gradient(#ADC3FF, #728BD7 50%, #5D71AD 50%, #6378B7);
+border-radius:8px;
+}
+.modeSelected-3DmyhH .link-1_kTxV, .modeSelected-3DmyhH:hover .link-1_kTxV, .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy, .selected-26oxtA {
+  background-image: linear-gradient(#636872 35%, #393C42)
+}
+.wrapper-1HIH0j, .attachment-1PZZB2, 
+.barBase-3xxDXu, .embedFull-1HGV2S, .wrapper-1FP9YQ {
+box-shadow:
+	inset 0 1px rgba(255,255,255,0.3),
+	inset 0 10px rgba(255,255,255,0.2),
+	inset 0 10px 20px rgba(255,255,255,0.25),
+	inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+.panels-3wFtMD {
+background-image: linear-gradient(#292B2F, #212326 100%);
+box-shadow: inset 0px 1px #4E5156;
+}
+.theme-dark .container-YkUktl {
+background: none
+}
+.clickable-28SzVr:hover .layout-1qmrhw, .interactive-26HRN_:hover, .result-u66Ywh[aria-selected=true], .side-1lrxIh .item-2GWPIy:hover, .colorDefault-2K3EoJ.focused-3afm-j, .wrapper-NhbLHG:hover .link-1_kTxV {
+  background-image: linear-gradient(#4D5259 35%, #34373C)
+}
+.da-switch, .css-1a8reka-control, .reaction-2A2y9y {
+  background-image: linear-gradient(rgba(255, 255, 255,0.1) 50%, rgba(128,128,128,0.1) 50%);
+}
+.title-31SJ6t.container-ZMc96U.themed-Hp1KC_, .container-ZMc96U.themed-Hp1KC_ {
+background-image: linear-gradient(#535860, #36393F 50%, #2B2E33 50%, #202226);
+box-shadow: 0px 0px 8px black,
+inset 0px 1px 2px #72787F;
+}
+.header-3OsQeK, .searchBar-3TnChZ {
+background-image: linear-gradient(#50545B, #2F3136 50%, #212326 50%, #161719);
+box-shadow: 0px 0px 8px black,
+inset 0px 1px 2px #72787F !important;
+border-right: #000 1px solid !important
+}
+.sidebarRegionScroller-FXiQOh, .scroller-1ox3I2, .theme-dark .scroller-WSmht3, .nowPlayingColumn-2s14cE, .container-1oAagU {
+background-image: linear-gradient(#2F313600 50%, #212326 100%);
+}
+.container-2o3qEW {
+background-image: linear-gradient(#2F313600 50%, #212326 100%);
+}
+.sidebarRegionScroller-FXiQOh, .scroller-1ox3I2, .scroller-kQBbkU {
+border-right: #000 1px solid
+}
+.searchResultsWrap-5RVOkx {
+box-shadow: -1px 0px black;	
+}
+.scrollableContainer-15eg7h, .searchBarComponent-3N7dCG, .searchBar-jGtisZ {
+box-shadow: inset 0px 3px 8px #191919,
+0 0 0 1px #000,
+0px 2px 2px #ffffff40 !important;
+border-radius: 50px !important;
+}
+::-webkit-scrollbar-thumb{
+border-radius: 0px !important;
+background-image: linear-gradient(#353B42, #222529)
+}
+.messagesWrapper-RpOMA3, .peopleColumn-1wMU14, .searchResult-O9NDji {
+background-image: linear-gradient(#36393F, #2B2E33);
+}
+.contentRegionScroller-2_GT_N {
+background-image: radial-gradient(rgba(255,255,255,0.15) 15%, rgba(0,0,0,0)),
+url('https://initialcharge.net/wp-content/uploads/2017/08/linen-tile.png');
+}
+.form-3gdLxP {
+background-image: linear-gradient(#36393F, #202226);
+box-shadow: 0px 0px 5px,
+inset 0px 1px #4E5156;
+}
+.wordmark-2u86JB > svg > path, .form-2fGMdU.da-form::before, .wordmarkWindows-2dq6rw path {
+display: none !important;
+}
+.channelTextArea-1FufC0, .members-3WRCEx>div {
+background-color: #0000
+}
+.wordmark-2u86JB {
+background-image: url('https://i.imgur.com/bgfmhWB.png') !important;
+background-position: center !important;
+background-size: contain !important;
+background-repeat: no-repeat !important;
+width: 14px;
+height: 14px; 
+}
+.wordmark-2u86JB::before{
+content:"Discord Aero";
+font-size: 16px;
+Font-weight:600;
+position:fixed;
+left:31px;
+}
+.avatar-2e8lTP {
+border-radius: 0%;
+}
+.svg-1X37T1, .wrapper-28eC3z foreignObject {
+mask: none;
+border-radius: 10px;
+}
+main[class^="chatContent"] form[class*="form"] {
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 0px;
+margin-right: 0px;
+}
+[class*="group-spacing"] div[class*="groupStart"]::after,  main[class^="chatContent"] > div[class^="messagesWrapper"] div[class^="divider-"] > span::before {
+box-shadow: 0px -1px 1px black;
+}
+.link-1_kTxV,.channel-1Shao0 {
+box-shadow: 0px 1px 0px black,
+1px 1px 0px 1px var(--background-modifier-accent);
+}
+.markup-eYLPri, .username-h_Y3Us {
+text-shadow: 0px 1px 3px black;
+}
+.headerPlaying-j0WQBV, .topSectionPlaying-1J5E4n {
+background-color: #202225
+}
+.activity-1gTu-L {
+border-radius: 5px;
+margin: 4px;
+margin-top: 0px;
+background-color: rgba(0,0,0,.1);
+text-shadow: 0px -1px 2px black;
+}
+.input-2g-os5  {
+box-shadow: 0 0 0 1px #000, 0 2px #fff3, inset 0 1px 3px #0008;
+border: unset
+}
+.h5-2RwDNl, .defaultColor-2cKwKo {
+text-shadow: 0 -2px black;
+}
+
+.wrapper-1gVUIN.minimum-fXpVNc {
+background-image: linear-gradient(rgba(255,255,255,0.15), rgba(0,0,0,0.3) 40%);
+}
